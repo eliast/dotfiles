@@ -90,6 +90,7 @@ installcask p4v
 installcask sublime-text
 installcask caffeine
 installcask docker
+installcask clipmenu
 
 # Remove outdated versions from the cellar
 brew cleanup
