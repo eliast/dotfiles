@@ -25,14 +25,12 @@ brew install wget --enable-iri
 brew tap homebrew/dupes
 brew install homebrew/dupes/grep
 brew tap josegonzalez/homebrew-php
-brew install php55
 
 # Install other useful binaries
 brew install ack
 brew install git
 brew install imagemagick
 brew install lynx
-brew install macvim
 brew install mysql
 brew install node
 brew install rbenv --HEAD
@@ -44,9 +42,6 @@ brew install vim
 brew install cmake
 brew install hub
 brew install keychain
-
-# Ridiculous Fish Shell
-brew install fish
 
 # Install native apps
 brew install caskroom/cask/brew-cask
@@ -62,9 +57,7 @@ installcask cyberduck
 installcask dash
 installcask dropbox
 installcask firefox
-installcask flux
 installcask flycut
-installcask google-chrome
 installcask imagealpha
 installcask imageoptim
 installcask intellij-idea-ce
@@ -72,16 +65,12 @@ installcask iterm2
 installcask java
 installcask jumpcut
 installcask mailbox
-installcask nvalt
 installcask onepassword
-installcask rdio
 installcask recordit
-installcask seil
 installcask sketch
 installcask sketch-toolbox
 installcask spotify
 installcask slack
-installcask steam
 installcask sublime-text
 installcask the-unarchiver
 installcask transmission
@@ -92,6 +81,7 @@ installcask vlc
 installcask hub
 installcask dockertoolbox
 installcask amethyst
+installcask size-up
 
 # Remove outdated versions from the cellar
 brew cleanup

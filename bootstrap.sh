@@ -14,10 +14,9 @@ function doIt() {
   git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
   vim -E -c PluginInstall -c q
 
-  # install oh-my-fish
-  curl -L https://github.com/bpinto/oh-my-fish/raw/master/tools/install.fish | fish
-  grep -q '^/usr/local/bin/fish$' /etc/shells ||echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
-  chsh -s /usr/local/bin/fish
+  # install oh-my-zsh
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  chsh -s /bin/zsh
 
   sh .osx
 }
