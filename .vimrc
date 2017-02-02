@@ -86,7 +86,6 @@ let g:jsx_ext_required = 0
 Plugin 'goatslacker/mango.vim'
 set background=dark
 syntax on
-color mango
 
 call vundle#end()
 filetype plugin indent on
@@ -140,12 +139,12 @@ set showcmd
 set cmdheight=2
 
 set wrap
-set textwidth=120
+"set textwidth=120
 let g:RightAlign_RightBorder=120
 if exists('+colorcolumn')
-  set colorcolumn=120
+"  set colorcolumn=120
 else
-  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>120v.\+', -1)
+"  au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>120v.\+', -1)
 endif
 
 " Syntax Higlighting
@@ -208,7 +207,7 @@ syntax enable "Enable syntax hl
 
 " Set font according to system
 " if you're using a mac
-set gfn="Fira Mono for Powerline":h12
+set gfn="Fira\ Mono\ for\ Powerline":h12
 set shell=/bin/bash
 
 " if you're using windows

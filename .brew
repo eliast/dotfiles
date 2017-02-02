@@ -42,6 +42,10 @@ brew install vim
 brew install cmake
 brew install hub
 brew install keychain
+brew install terraform
+brew install jq
+brew install awscli
+brew install elixi
 
 # Install native apps
 brew install caskroom/cask/brew-cask
@@ -81,7 +85,10 @@ installcask vlc
 installcask hub
 installcask dockertoolbox
 installcask amethyst
-installcask size-up
+installcask sizeup
+installcask tunnelblick
+installcask p4v
+installcask sublime-text
 
 # Remove outdated versions from the cellar
 brew cleanup
