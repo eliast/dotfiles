@@ -46,6 +46,7 @@ brew install terraform
 brew install jq
 brew install awscli
 brew install elixir
+brew install httpie
 
 # Install native apps
 brew install caskroom/cask/brew-cask
