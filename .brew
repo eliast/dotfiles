@@ -83,12 +83,13 @@ installcask vagrant
 installcask virtualbox
 installcask vlc
 installcask hub
-installcask dockertoolbox
 installcask amethyst
 installcask sizeup
 installcask tunnelblick
 installcask p4v
 installcask sublime-text
+installcask caffeine
+installcask docker
 
 # Remove outdated versions from the cellar
 brew cleanup
