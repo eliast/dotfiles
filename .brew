@@ -45,7 +45,7 @@ brew install keychain
 brew install terraform
 brew install jq
 brew install awscli
-brew install elixi
+brew install elixir
 
 # Install native apps
 brew install caskroom/cask/brew-cask
